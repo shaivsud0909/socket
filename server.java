@@ -11,5 +11,9 @@ public class server {
             BufferedReader br=new BufferedReader(in);    //Creates a BufferedReader to read text from the InputStreamReader.
             String str=br.readLine();    //Reads a line of text from the client.
             System.out.println("client says: "+str);    //Prints the message received from the client..
+
+            PrintWriter pr=new PrintWriter(s.getOutputStream());    //Creates a PrintWriter object to send data to the server.
+            pr.println("yes, it is working");    //Sends a message to the client.
+            pr.flush(); 
     } 
 }
