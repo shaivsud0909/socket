@@ -1,0 +1,6 @@
+A socket is one endpoint of a two way communication link between two programs running on the network
+inter-process communication (IPC) 
+stream socket:sequential packet deliverd (slow) http https   - TCP socket   connection orented 
+datagram socket: packet may arrive out of order (fast) live streming audio/video  -udip socket connection less 
+socket programing is way of connecting two nodes on a network to communicate with each other 
+
